@@ -5,8 +5,15 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Задача 1 (Where)");
         whereTSK1();
+        whereTSK2();
+        selectTSK1();
+        orderbyTSK1();
+        orderbyTSK2();
+        AregTSK1();
+        AregTSK2();
+        groupbyTsk1();
+        groupbyTsk2();
     }
 
     public static void whereTSK1()
