@@ -1,12 +1,14 @@
-﻿namespace TSK1
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace TSK1
 {
     public class Client
     {
         public void Operation()
         {
-            Prototype prototype = new ConcretePrototype1(1);
+            Prototype prototype = new ConcretePrototype1(1, 13);
             Prototype clone = prototype.Clone();
-            prototype = new ConcretePrototype2(2);
+            prototype = new ConcretePrototype2(2, "Ali");
             clone = prototype.Clone();
         }
     }
@@ -15,7 +17,8 @@
 
     public abstract class Prototype
     {
-        public int Id { get; private set; }
+        public int Id;
+
         public Prototype(int id)
         {
             this.Id = id;
@@ -28,27 +31,31 @@
 
     public class ConcretePrototype1 : Prototype
     {
-        public ConcretePrototype1(int id) : base(id)
+        public int Age;
+        
+        public ConcretePrototype1(int id, int age) : base(id)
         {
-
+            this.Age = age;
         }
 
         public override Prototype Clone()
         {
-            return new ConcretePrototype1(Id);
+            return new ConcretePrototype1(Id, Age);
         }
     }
 
     public class ConcretePrototype2 : Prototype
     {
-        public ConcretePrototype2(int id) : base(id)
-        {
+        public string Name;
 
+        public ConcretePrototype2(int id, string name) : base(id)
+        {
+            this.Name = name;
         }
 
         public override Prototype Clone()
         {
-            return new ConcretePrototype2(Id);
+            return new ConcretePrototype2(Id, Name);
         }
 
     }
@@ -58,19 +65,32 @@ namespace TSK2
 {
     public abstract class Product
     {
-        public int live;
+        public int Live;
+
+        public Product(int live)
+        {
+            Live = live;
+        }
     }
 
     public class ConcreteProductA : Product
     {
-        public int live;
-        public int deathDate;
+        public int DeathDate;
+
+        public ConcreteProductA(int live, int deathDate) : base(live)
+        {
+            DeathDate = deathDate;
+        }
     }
 
     public class ConcreteProductB : Product
     {
-        public int live;
-        public int deathPhase;
+        public string DeathPhase;
+
+        public ConcreteProductB(int live, string deathPhase) : base(live)
+        {
+            DeathPhase = deathPhase;
+        }
     }
 
     public abstract class Creator
@@ -80,12 +100,18 @@ namespace TSK2
 
     public class ConcreteCreatorA : Creator
     {
-        public override Product FactoryMethod() { return new ConcreteProductA(); }
+        public override Product FactoryMethod() 
+        { 
+            return new ConcreteProductA(1, 2); 
+        }
     }
 
     public class ConcreteCreatorB : Creator
     {
-        public override Product FactoryMethod() { return new ConcreteProductB(); }
+        public override Product FactoryMethod() 
+        { 
+            return new ConcreteProductB(2, "full"); 
+        }
     }
 }
 
@@ -125,32 +151,66 @@ namespace TSK3
 
     public abstract class AbstractProductA
     {
+        public int x1;
+        public int x2;
 
+        public AbstractProductA(int V1, int V2)
+        {
+            x1 = V1;
+            x2 = V2;
+        }
     }
 
     public abstract class AbstractProductB
     {
+        public int y1;
+        public int y2;
 
+        public AbstractProductB(int V1, int V2)
+        {
+            y1 = V1;
+            y2 = V2;
+        }
     }
 
     public class ProductA1 : AbstractProductA
     {
+        public string f;
 
+        public ProductA1(int V1, int V2, string F) : base(V1, V2)
+        {
+            f = F;
+        }
     }
 
     public class ProductB1 : AbstractProductB
     {
+        public bool f;
 
+        public ProductB1(int V1, int V2, bool F) : base(V1, V2)
+        {
+            f = F;
+        }
     }
 
     public class ProductA2 : AbstractProductA
     {
+        public string g;
 
+        public ProductA2(int V1, int V2, string G) : base(V1, V2)
+        {
+            g = G;
+        }
     }
 
     public class ProductB2 : AbstractProductB
     {
+        public bool g;
 
+        public ProductB2(int V1, int V2, bool G) : base(V1, V2)
+        {
+            g = G;
+        }
     }
 
     public class Client
@@ -162,10 +222,6 @@ namespace TSK3
         {
             abstractProductB = factory.CreateProductB();
             abstractProductA = factory.CreateProductA();
-        }
-        public void Run()
-        {
-
         }
     }
 }
