@@ -58,17 +58,19 @@ namespace TSK2
 {
     public abstract class Product
     {
-
+        public int live;
     }
 
     public class ConcreteProductA : Product
     {
-
+        public int live;
+        public int deathDate;
     }
 
     public class ConcreteProductB : Product
     {
-
+        public int live;
+        public int deathPhase;
     }
 
     public abstract class Creator
