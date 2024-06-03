@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\bin\Debug\net7.0\MATHWORKING____.exe
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\bin\Debug\net7.0\MATHWORKING____.deps.json
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\bin\Debug\net7.0\MATHWORKING____.runtimeconfig.json
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\bin\Debug\net7.0\MATHWORKING____.dll
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\bin\Debug\net7.0\MATHWORKING____.pdb
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.AssemblyInfo.cs
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.dll
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\refint\MATHWORKING____.dll
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.pdb
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\MATHWORKING____.genruntimeconfig.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATHWORKING____\MATHWORKING____\obj\Debug\net7.0\ref\MATHWORKING____.dll
