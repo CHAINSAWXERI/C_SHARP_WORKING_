@@ -1,5 +1,6 @@
 ﻿using System;
 
+//TSK1
 public class Character
 {
     public string Name { get; set; }
@@ -61,15 +62,64 @@ public class Warlock : Character
     }
 }
 
-
 public class Spell { }
 public class Effect { }
 public class Minion { }
+
+//TSK2
+public class Circle
+{
+    public int Diameter { get; } = 10;
+    public int CenterX { get; } = 5;
+    public int CenterY { get; } = 5;
+
+    public virtual void Draw()
+    {
+        Console.WriteLine($"Drawing circle with diameter {Diameter} at center ({CenterX}, {CenterY})");
+    }
+}
+
+public class DecoratorCircle : Circle
+{
+    private Circle _circle;
+
+    public DecoratorCircle(Circle circle)
+    {
+        _circle = circle;
+    }
+
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing circle at a new location");
+    }
+}
+
+public class ShiftedCircle : DecoratorCircle
+{
+    private int _shiftX;
+    private int _shiftY;
+
+    public ShiftedCircle(Circle circle) : base(circle)
+    {
+    }
+
+    public void SetShift(int shiftX, int shiftY)
+    {
+        _shiftX = shiftX;
+        _shiftY = shiftY;
+    }
+
+    public override void Draw()
+    {
+        Console.WriteLine($"Drawing shifted circle at center ({base.CenterX + _shiftX}, {base.CenterY + _shiftY})");
+    }
+}
 
 class Program
 {
     static void Main()
     {
+        //TSK1
         Character baseCharacter = new Character
         {
             Name = "Grom",
@@ -96,5 +146,21 @@ class Program
 
         Console.WriteLine("\nWarlock Character:");
         Console.WriteLine(warlockCharacter);
+
+        //TSK2
+        Circle baseCircle = new Circle();
+
+        DecoratorCircle decoratorCircle = new DecoratorCircle(baseCircle);
+
+        ShiftedCircle shiftedCircle = new ShiftedCircle(baseCircle);
+
+        Console.Write("Enter shift value for X: ");
+        int shiftX = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter shift value for Y: ");
+        int shiftY = Convert.ToInt32(Console.ReadLine());
+
+        shiftedCircle.SetShift(shiftX, shiftY);
+        shiftedCircle.Draw();
     }
 }
