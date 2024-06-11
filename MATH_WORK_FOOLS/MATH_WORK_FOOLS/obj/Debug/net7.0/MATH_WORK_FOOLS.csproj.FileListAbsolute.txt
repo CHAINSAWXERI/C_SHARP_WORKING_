@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\bin\Debug\net7.0\MATH_WORK_FOOLS.exe
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\bin\Debug\net7.0\MATH_WORK_FOOLS.deps.json
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\bin\Debug\net7.0\MATH_WORK_FOOLS.runtimeconfig.json
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\bin\Debug\net7.0\MATH_WORK_FOOLS.dll
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\bin\Debug\net7.0\MATH_WORK_FOOLS.pdb
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.AssemblyInfo.cs
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.dll
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\refint\MATH_WORK_FOOLS.dll
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.pdb
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\MATH_WORK_FOOLS.genruntimeconfig.cache
+C:\Users\Student\Documents\GitHub\C_SHARP_WORKING_\MATH_WORK_FOOLS\MATH_WORK_FOOLS\obj\Debug\net7.0\ref\MATH_WORK_FOOLS.dll
